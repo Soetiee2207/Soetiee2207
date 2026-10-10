@@ -1,41 +1,92 @@
 <div align="center">
 
-# Hey, I'm Soetie 👋
+![SOETIE — Pixel Universe. Code, data, AI, and a little chaos.](./assets/pixel-universe.svg)
 
-### Curiosity → Ideas → Code
+**Developer · Vibe Coder · AI Prompt Engineer · Data Engineer**
 
-Welcome to my little corner of GitHub.
+*Building useful things. Occasionally touching grass.*<br>
+*Xây những thứ hữu ích. Thỉnh thoảng ra ngoài chạm cỏ.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Soetiee2207-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Soetiee2207)
-[![Explore my projects](https://img.shields.io/badge/Explore_my_projects-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Soetiee2207?tab=repositories)
+[![Explore projects](https://img.shields.io/badge/START-EXPLORE_PROJECTS-2788FF?style=for-the-badge&labelColor=0B1224)](https://github.com/Soetiee2207?tab=repositories)
+[![Facebook](https://img.shields.io/badge/CO--OP-SAY_HELLO-2788FF?style=for-the-badge&labelColor=0B1224)](https://www.facebook.com/sah.soetie.2207)
 
 </div>
 
 ---
 
-## A little about me
+### 👾 PLAYER 01 / NGƯỜI CHƠI 01
 
-I like the journey from “what if?” to something you can actually use.
-This space is where I share projects, explore ideas, and keep learning along the way.
+I'm **SOETIE**. I build backends, work with data, and turn ideas into code with AI along for the ride. Equal parts curiosity, focus, and questionable jokes.
 
-- **Build with purpose.** Start with a problem worth solving.
-- **Keep it clear.** Make things easy to understand and use.
-- **Stay curious.** There is always something new to learn.
+Mình là **SOETIE**. Mình xây backend, làm việc với dữ liệu và biến ý tưởng thành code cùng AI. Một chút tò mò, một chút tập trung, thêm vài câu đùa chưa qua kiểm duyệt.
 
-## Take a look around
+```text
+SOCIAL MODE    Introvert ↔ Extrovert / Hướng nội ↔ Hướng ngoại
+FIRST CONTACT  Quiet / Mới gặp hơi lạnh
+AFTER UNLOCK   Comedy mode / Quen rồi bật chế độ tấu hài
+PALETTE        Ocean blue · Black · White / Xanh biển · Đen · Trắng
+```
 
-| Explore | What you'll find |
+> Serious about the build. Playful about the journey.<br>
+> Làm sản phẩm nghiêm túc. Giữ hành trình vui vẻ.
+
+### 🎒 INVENTORY / BỘ ĐỒ NGHỀ
+
+Technologies I actually use in my projects.<br>
+Những công nghệ mình thực sự dùng trong các dự án.
+
+![Node.js](https://img.shields.io/badge/Node.js-0B1224?style=for-the-badge&logo=nodedotjs&logoColor=65B5FF)
+![Express](https://img.shields.io/badge/Express-0B1224?style=for-the-badge&logo=express&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B1224?style=for-the-badge&logo=javascript&logoColor=65B5FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-0B1224?style=for-the-badge&logo=typescript&logoColor=65B5FF)
+![Python](https://img.shields.io/badge/Python-0B1224?style=for-the-badge&logo=python&logoColor=FFFFFF)
+![Rush](https://img.shields.io/badge/Rush-0B1224?style=for-the-badge)
+
+### 🚀 FEATURED QUEST / NHIỆM VỤ NỔI BẬT
+
+<table>
+<tr>
+<td>
+
+#### [SalonHub ↗](https://github.com/Soetiee2207/SalonHub)
+
+**One salon. Many moving parts. One place to manage them.**<br>
+**Một salon, nhiều nghiệp vụ, một nơi để quản lý.**
+
+A system for managing salon inventory, sales, accounting, and scheduling.<br>
+Hệ thống quản lý **kho hàng, bán hàng, kế toán và sắp lịch** cho salon.
+
+| Quest objectives / Bài toán | Scope / Phạm vi |
 | :--- | :--- |
-| [Repositories](https://github.com/Soetiee2207?tab=repositories) | My public projects and their source code. |
-| [Recent activity](https://github.com/Soetiee2207?tab=overview) | What I've been working on lately. |
-| [Stars](https://github.com/Soetiee2207?tab=stars) | Projects that caught my attention. |
+| 📦 Inventory / Kho hàng | Inventory management / Quản lý kho |
+| 🛒 Sales / Bán hàng | Sales management / Quản lý bán hàng |
+| 🧾 Accounting / Kế toán | Accounting management / Quản lý kế toán |
+| 📅 Scheduling / Sắp lịch | Schedule management / Quản lý lịch |
+
+**Achievement unlocked / Thành tựu đã mở khóa**<br>
+Built the entire backend from scratch, end to end.<br>
+Tự xây dựng toàn bộ backend từ đầu đến cuối — phần mình tự hào nhất.
+
+[**Enter the repository → / Khám phá mã nguồn →**](https://github.com/Soetiee2207/SalonHub)
+
+</td>
+</tr>
+</table>
+
+### 🛰️ CO-OP CHANNEL / KÊNH KẾT NỐI
+
+Have an idea, a backend puzzle, or a joke worth sharing? Let's talk.<br>
+Có ý tưởng, bài toán backend, hay câu đùa đủ mặn? Kết nối với mình nhé.
+
+**[Facebook ↗](https://www.facebook.com/sah.soetie.2207)** · **[GitHub ↗](https://github.com/Soetiee2207)**
 
 ---
 
 <div align="center">
 
-**Small steps. Thoughtful work. Always learning.**
+**SAVE YOUR PROGRESS. STAY CURIOUS.**<br>
+**Lưu tiến độ. Giữ sự tò mò.**
 
-Thanks for stopping by — explore a repo and say hello in an issue or discussion where available.
+<sub>Thanks for visiting my universe. / Cảm ơn đã ghé vũ trụ của mình.</sub>
 
 </div>
