@@ -1,6 +1,9 @@
 <div align="center">
 
-![SOETIE — Pixel Universe. Code, data, AI, and a little chaos.](./assets/pixel-universe.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pixel-universe.svg">
+  <img src="./assets/pixel-universe.gif" alt="SOETIE — Pixel Universe. Code, data, AI, and a little chaos." width="1200" height="440">
+</picture>
 
 **Developer · Vibe Coder · AI Prompt Engineer · Data Engineer**
 
