@@ -1,11 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
 <title id="title">SOETIE — Pixel Universe</title>
-<desc id="desc">White pixel lettering over a black and ocean blue starfield, with a little astronaut, a blue planet, and pixel terrain.</desc>
+<desc id="desc">White pixel lettering over a gently twinkling starfield, with a bobbing astronaut, a floating blue planet, an occasional shooting star, and pixel terrain.</desc>
+<style>
+  .stars rect { animation: twinkle 5s ease-in-out infinite; }
+  .stars rect:nth-child(3n) { animation-delay: -2s; animation-duration: 7s; }
+  .stars rect:nth-child(3n + 1) { animation-delay: -4s; animation-duration: 6s; }
+  .sparkles { animation: twinkle 6s ease-in-out infinite; }
+  .planet { animation: drift 9s ease-in-out infinite; }
+  .astronaut-motion { animation: bob 4s steps(4, end) infinite; }
+  .beacon { animation: beacon 3s ease-in-out infinite; }
+  .meteor { opacity: 0; animation: meteor 12s linear infinite; }
+  @keyframes twinkle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .3; }
+  }
+  @keyframes drift {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-4px, 8px); }
+  }
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes beacon {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .45; }
+  }
+  @keyframes meteor {
+    0%, 72% { opacity: 0; transform: translate(0, 0); }
+    74% { opacity: .8; }
+    82% { opacity: 0; transform: translate(-180px, 72px); }
+    100% { opacity: 0; transform: translate(-180px, 72px); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .stars rect, .sparkles, .planet, .astronaut-motion, .beacon, .meteor {
+      animation: none;
+    }
+  }
+</style>
 <rect width="1200" height="440" fill="#070c19"/>
 <path d="M0 344H1200V440H0Z" fill="#0b1530"/>
 <g fill="#123263"><path d="M0 400V376H48V352H112V376H192V400H256V368H320V344H384V368H448V400H512V376H592V352H656V376H720V400H784V368H848V344H912V368H976V400H1040V376H1120V352H1200V440H0Z"/></g>
 <path d="M0 424H1200V440H0Z" fill="#1b4c91"/>
-<g fill="#d7edff">
+<g class="stars" fill="#d7edff">
 <rect x="40" y="35" width="4" height="4"/>
 <rect x="150" y="95" width="3" height="3"/>
 <rect x="315" y="42" width="4" height="4"/>
@@ -19,8 +56,13 @@
 <rect x="78" y="296" width="4" height="4"/>
 <rect x="690" y="286" width="3" height="3"/>
 <rect x="1120" y="324" width="4" height="4"/>
-</g><g fill="#398fff"><path d="M780 42h6v-6h6v6h6v6h-6v6h-6v-6h-6zM1110 126h6v-6h6v6h6v6h-6v6h-6v-6h-6z"/></g>
-<g shape-rendering="crispEdges">
+</g><g class="sparkles" fill="#398fff"><path d="M780 42h6v-6h6v6h6v6h-6v6h-6v-6h-6zM1110 126h6v-6h6v6h6v6h-6v6h-6v-6h-6z"/></g>
+<g class="meteor" fill="#b5ddff" shape-rendering="crispEdges" aria-hidden="true">
+<rect x="858" y="46" width="8" height="4"/>
+<rect x="866" y="42" width="12" height="4" opacity=".6"/>
+<rect x="878" y="38" width="12" height="4" opacity=".3"/>
+</g>
+<g class="planet" shape-rendering="crispEdges">
 <path d="M954 60h84v12h24v12h12v24h12v60h-12v24h-12v12h-24v12h-84v-12h-24v-12h-12v-24h-12v-60h12V84h12V72h24z" fill="#247be0"/>
 <path d="M954 60h84v12h24v12h12v24h-36V96h-48V84h-36z" fill="#75c5ff"/>
 <path d="M918 144h24v12h36v12h48v12h48v12h-12v12h-24v12h-84v-12h-24v-12h-12z" fill="#164c9c"/>
@@ -128,14 +170,16 @@
 <text x="64" y="285" font-size="18">CODE. DATA. AI. A LITTLE CHAOS.</text>
 <text x="64" y="331" font-size="13" fill="#a9bdd9">BUILD WITH INTENT. DEBUG WITH HUMOR.</text>
 </g>
+<g class="astronaut-motion">
 <g transform="translate(914 260) scale(4)" shape-rendering="crispEdges">
 <path d="M8 0h14v2h4v4h2v12h-2v4h-4v2H8v-2H4v-4H2V6h2V2h4z" fill="#ecf6ff"/>
 <path d="M7 5h16v2h2v10h-2v2H7v-2H5V7h2z" fill="#183761"/>
 <path d="M8 7h12v3H8z" fill="#67baff"/>
 <path d="M8 24h14v2h4v12h-5v-7H9v7H4V26h4z" fill="#d5eaff"/>
-<path d="M11 26h8v4h-8z" fill="#2788ff"/>
+<path class="beacon" d="M11 26h8v4h-8z" fill="#2788ff"/>
 <path d="M4 27H0v8h4M26 27h4v8h-4" fill="#8cb6dd"/>
 <path d="M4 38h7v4H2v-2h2M19 38h7v2h2v2h-9" fill="#2788ff"/>
+</g>
 </g>
 <rect x="0.5" y="0.5" width="1199" height="439" fill="none" stroke="#1c3556"/>
 </svg>
